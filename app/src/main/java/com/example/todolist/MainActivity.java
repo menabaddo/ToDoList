@@ -40,7 +40,9 @@ public class MainActivity extends AppCompatActivity {
     public void addItemToList(View view){
 
         toDoList.add(editText.getText().toString());
+        arrayAdapter.notifyDataSetChanged();
 
+        editText.setText("");
 
     }
 }
