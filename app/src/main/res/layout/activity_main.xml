@@ -8,11 +8,15 @@
 
 
     <LinearLayout
+        android:id="@+id/id_bottom_section"
         android:layout_width="match_parent"
+        android:padding="10dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
         <EditText
-            android:layout_width="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="8dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             />
     <Button
@@ -20,6 +24,14 @@
         android:text="Add"
         android:layout_height="wrap_content"
 />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_above="@id/id_bottom_section"
+        android:layout_width="match_parent"
+        android:background="#F4D36F"
+        android:layout_height="match_parent">
 
     </LinearLayout>
 
